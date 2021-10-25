@@ -1,0 +1,8 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Rest Request: POST: http://localhost:8083/profile",
+        "infFile": "t1.inf",
+        "time": 1635104551928
+    }
+]

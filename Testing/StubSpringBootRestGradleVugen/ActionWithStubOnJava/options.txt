@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\VuGen\Scripts\ActionWithStubOnJava
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\actionwithstubonjava\\logfile.log
+c:\users\user\documents\vugen\scripts\actionwithstubonjava\\combined_ActionWithStubOnJava.c
+c:\users\user\documents\vugen\scripts\actionwithstubonjava\\pre_cci.c

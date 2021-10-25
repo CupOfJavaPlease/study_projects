@@ -1,0 +1,29 @@
+ЛР1 - Задача1
+
+Создать сервис для аутентификации пользователя на основе таблицы accounts. 
+Сервис (SecurityService) должен содержать метод для аутентификации по логину и паролю. 
+
+-- accounts
+CREATE TABLE accounts (
+user_id serial PRIMARY KEY,
+username VARCHAR ( 50 ) UNIQUE NOT NULL,
+password VARCHAR ( 50 ) NOT NULL,
+email VARCHAR ( 255 ) UNIQUE NOT NULL,
+created_on TIMESTAMP NOT NULL,
+        last_login TIMESTAMP 
+);
+
+1) Класс сервиса SecurityService должен использовать шаблон проектирования Singleton (Singleton Pattern)
+
+Метод класса SecurityService: 
+
+public void authenticate(String username, String password) throws AuthException {
+// ...
+}
+
+2) Метод выбрасывает исключение AuthException (необходимо создать данный класс-исключение) в том случае, если пользователя с таким username и password НЕ существует в таблице account (!)
+
+3) Метод должен обновлять значение поля last_login в таблице accounts в том случае, если процесс аутентификации выполнен успешно, для пользователя с данным username.
+
+
+Продемонстрировать работу метода сервиса  в методе main!

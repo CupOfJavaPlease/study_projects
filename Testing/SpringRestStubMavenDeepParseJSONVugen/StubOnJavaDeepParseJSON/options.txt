@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\VuGen\Scripts\StubOnJavaDeepParseJSON
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\stubonjavadeepparsejson\\logfile.log
+c:\users\user\documents\vugen\scripts\stubonjavadeepparsejson\\combined_StubOnJavaDeepParseJSON.c
+c:\users\user\documents\vugen\scripts\stubonjavadeepparsejson\\pre_cci.c

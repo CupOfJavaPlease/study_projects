@@ -1,0 +1,8 @@
+[parameter:host]
+CurrentValue="http://localhost:8083/"
+IsEncrypt="NO"
+IsServer="NO"
+OriginalValue="http://localhost:8083/"
+ParamName="host"
+Prompt="host"
+Type="Custom"
